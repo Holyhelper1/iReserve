@@ -1,0 +1,28 @@
+.success_message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 10px;
+	width: 100%;
+	border: 1px solid #4caf50;
+	padding: 20px;
+	background-color: #4caf50;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation: fadeOut 3s ease-in-out forwards;
+	opacity: 1;
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

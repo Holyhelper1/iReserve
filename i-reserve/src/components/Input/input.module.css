@@ -1,0 +1,12 @@
+.all_inputs {
+	display: flex;
+	margin: 10px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid rgb(255, 255, 255);
+	align-items: center;
+	border-radius: 5px;
+	height: 30px;
+	width: 90%;
+	font-size: 17px;
+	color: rgb(20, 20, 20);
+}

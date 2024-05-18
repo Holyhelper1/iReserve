@@ -1,0 +1,68 @@
+.rooms {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hotels_rooms_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.adminLogo {
+	display: flex;
+	justify-content: center;
+	width: 30px;
+	margin: 10px;
+}
+
+.new_room_add_form {
+	display: flex;
+	flex-direction: column;
+}
+
+.new_room_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px;
+	border-radius: 8px;
+	max-width: 800px;
+	width: 100%;
+	backdrop-filter: blur(38px);
+	background-color: rgba(26, 149, 216, 0.2);
+	box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 10px;
+	color: aliceblue;
+	font-size: 20px;
+}
+.new_room_form button {
+	align-items: center;
+	font-size: 18px;
+	color: aliceblue;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	width: 60%;
+	height: 40px;
+}
+
+.error_add_form {
+	color: rgb(241, 241, 241);
+	text-align: center;
+	margin: 10px;
+	width: 50%;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgb(138, 0, 0);
+	box-shadow: 10px 10px 12px 15px rgba(224, 3, 3, 0.2);
+	border-radius: 10px;
+}
+
+.success_add_container {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}

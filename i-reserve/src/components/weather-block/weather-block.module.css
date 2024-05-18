@@ -1,0 +1,35 @@
+.footer_weather {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 0 20px;
+	color: #ffffff;
+}
+
+.footer_weather:hover {
+	transition: 0.5s;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.footer_weather_icon {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	width: 50px;
+}
+
+.footer_weather_text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.footer_weather_block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}

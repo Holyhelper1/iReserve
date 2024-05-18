@@ -1,0 +1,31 @@
+.all_cancel_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	backdrop-filter: blur(38px);
+	background-color: #ff260065;
+	color: #ffffff;
+	text-shadow: 1px 1px 2px #000000;
+	margin: 2px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.5s ease-in-out;
+	width: 140px;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.all_cancel_button:hover {
+	background-color: #ff0000;
+	box-shadow: 0 5px 20px rgba(238, 49, 2, 0.5);
+}
+
+.all_cancel_button:disabled {
+	background-color: #8a8a8a;
+	backdrop-filter: blur(38px);
+	color: #b8b8b8;
+	cursor: not-allowed;
+}

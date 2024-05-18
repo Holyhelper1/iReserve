@@ -1,0 +1,41 @@
+.card_choice {
+	display: flex;
+	flex-direction: column-reverse;
+	max-width: 252px;
+	margin: 5px;
+	border: 1px solid rgb(26, 149, 216);
+	border-radius: 17px;
+	box-shadow: 0 70px 63px -60px rgb(0, 101, 119);
+	transition: all 0.5s;
+	backdrop-filter: blur(38px);
+	background-color: rgba(26, 149, 216, 0.2);
+}
+.card_choice:hover {
+	transform: scale(1.05);
+}
+
+.card_choice_picture {
+	display: flex;
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	margin: auto;
+	align-self: flex-end;
+	border-radius: 0 0 15px 15px;
+}
+.hotel_promotion_info {
+	display: flex;
+	align-items: center;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0 25px 10px 25px;
+	color: aliceblue;
+}
+
+.hotel_name {
+	max-width: 200px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

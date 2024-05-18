@@ -1,0 +1,34 @@
+.footer_container {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+	height: 60px;
+	background-color: #1f1f1f;
+	padding: 30px 20px 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.footer_logo {
+	text-align: center;
+}
+.footer_logo_img {
+	display: flex;
+	width: 100px;
+	height: 100%;
+}
+
+.footer_naming {
+	margin-left: 10px;
+}
+
+.footer_text {
+	font-size: 11px;
+}
+.footer_h3 {
+	font-size: 14px;
+}

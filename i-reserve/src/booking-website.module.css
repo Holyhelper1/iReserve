@@ -1,0 +1,13 @@
+.container {
+	width: 97%;
+	margin: auto;
+	margin-top: 141px;
+	background-color: rgb(230, 230, 230);
+}
+.test {
+	text-align: center;
+	color: rgb(29, 29, 29);
+	font-weight: bold;
+	margin: 30px;
+	font-size: 25px;
+}

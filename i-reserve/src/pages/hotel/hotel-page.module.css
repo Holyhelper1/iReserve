@@ -1,0 +1,25 @@
+.hotel_container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url('https://sun9-15.userapi.com/impg/PF-lkeQ3m2M_O69Q7ln5gRCAXmsMsHbYr7nc7g/xSYiEx7482g.jpg?size=2560x890&quality=95&sign=b92b26f568f073df4dcfea5d3815366e&type=album');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px 0;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hotel_rooms_main_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.rooms_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 15px;
+}

@@ -1,0 +1,48 @@
+.search_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 30%;
+	height: auto;
+	padding: 0 5px;
+	font-size: 30px;
+}
+
+.search_stars_select {
+	font-size: 16px;
+	width: 30%;
+	height: 40px;
+	padding: 0 5px;
+	margin: 0 5px;
+	border-radius: 5px;
+	appearance: none;
+	background-color: #f0f0f0;
+	background-repeat: no-repeat;
+	background-position: right 0.7rem top 50%, 0 0;
+	background-size: 0.65rem auto, 100%;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.search_stars_select option {
+	background-color: #e7e7e7;
+	color: #333;
+}
+
+.search_stars_select:focus {
+	outline: none;
+	background-color: rgba(0, 247, 255, 0.1);
+}
+
+.search_icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.search_icon:hover {
+	cursor: default;
+}

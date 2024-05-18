@@ -1,0 +1,56 @@
+.user_logo {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.admin_logo {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	filter: invert(100%);
+}
+.control_panel_container {
+	display: flex;
+	justify-content: center;
+	margin-right: 30px;
+}
+
+.login_panel_button_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.control_panel_user_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3px;
+	width: 200px;
+}
+
+.user_info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 50px;
+	margin: 10px;
+}
+.user_name {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.control_panel_button_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.admin_button_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100px;
+}

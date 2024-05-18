@@ -1,0 +1,76 @@
+.admin_page_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('https://www.kayak.co.uk/news/wp-content/uploads/sites/5/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 40px;
+	border-radius: 8px;
+	max-width: 800px;
+	width: 100%;
+	backdrop-filter: blur(38px);
+	background-color: rgba(26, 149, 216, 0.2);
+	box-shadow: 10px 10px 8px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.heading {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.datePickerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.label {
+	font-size: 18px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	color: aliceblue;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.control_users_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.control_users_button button {
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: rgba(26, 149, 216, 0.2);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.message {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	color: aliceblue;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

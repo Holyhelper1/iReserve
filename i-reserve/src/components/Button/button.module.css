@@ -1,0 +1,32 @@
+.all_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	backdrop-filter: blur(38px);
+	background-color: rgba(26, 149, 216, 0.541);
+	color: #ffffff;
+	text-shadow: 0.5px 0.5px 5px #000000;
+	margin: 2px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.4s ease-in-out;
+	width: 140px;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.all_button:hover {
+	background-color: #2890d5;
+	box-shadow: 0 5px 20px rgba(2, 210, 238, 0.5);
+}
+
+.all_button:disabled {
+	backdrop-filter: blur(38px);
+	background-color: rgba(252, 17, 0, 0.466);
+	color: #cfcfcfbd;
+	cursor: not-allowed;
+	box-shadow: 0 5px 20px rgba(238, 18, 2, 0.5);
+}
